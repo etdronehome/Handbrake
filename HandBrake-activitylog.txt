@@ -1,0 +1,717 @@
+HandBrake Activity Log for Session: 2019-02-18T15:59:55Z
+Handbrake Version: 1.2.0 (2018122200)
+[09:59:55] macgui: Handbrake Version: 1.2.0  (2018122200)
+[09:59:55] macgui: built-in presets updated
+[09:59:55] hb_init: starting libhb thread
+[09:59:55] hb_init: starting libhb thread
+[10:01:45] macgui: trying to open a folder or file
+[10:01:45] macgui: ScanCore scanning titles with a duration of 10 seconds or more
+[10:01:45] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:01:45]  - Intel microarchitecture Kaby Lake
+[10:01:45]  - logical processor count: 4
+[10:01:45] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard.mp4, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:01:45] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:01:45] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T15:51:04.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 8064 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 8031 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T15:51:04.000000Z
+      handler_name    : Core Media Video
+[10:01:45] scan: decoding previews for title 1
+[10:01:45] scan: 10 previews, 1280x720, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:01:45] libhb: scan thread found 1 valid title(s)
+[10:01:45] macgui: ScanCore scan done
+[10:03:16] macgui: QueueCore prevented sleep
+[10:03:16] macgui: QueueCore scanning specifically for title: 1
+[10:03:16] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:03:16]  - Intel microarchitecture Kaby Lake
+[10:03:16]  - logical processor count: 4
+[10:03:16] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:03:16] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:03:16] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T15:51:04.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 8064 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 8031 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T15:51:04.000000Z
+      handler_name    : Core Media Video
+[10:03:16] scan: decoding previews for title 1
+[10:03:17] scan: 10 previews, 1280x720, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:03:17] libhb: scan thread found 1 valid title(s)
+[10:03:17] macgui: QueueCore scan done
+[10:03:17] 1 job(s) to process
+[10:03:17] starting job
+[10:03:17] macgui: QueueCore started encoding 2236 Back yard.mp4
+[10:03:17] macgui: QueueCore with preset Fast 1080p30 (Modified)
+[10:03:17] decomb filter thread started for segment 0
+[10:03:17] decomb filter thread started for segment 2
+[10:03:17] decomb filter thread started for segment 1
+[10:03:17] decomb filter thread started for segment 3
+[10:03:17] decomb check thread started for segment 0
+[10:03:17] decomb check thread started for segment 2
+[10:03:17] decomb check thread started for segment 1
+[10:03:17] decomb check thread started for segment 3
+[10:03:17] mask filter thread started for segment 0
+[10:03:17] mask filter thread started for segment 1
+[10:03:17] mask filter thread started for segment 2
+[10:03:17] mask filter thread started for segment 3
+[10:03:17] mask erode thread started for segment 0
+[10:03:17] mask erode thread started for segment 1
+[10:03:17] mask erode thread started for segment 2
+[10:03:17] mask erode thread started for segment 3
+[10:03:17] mask dilate thread started for segment 0
+[10:03:17] mask dilate thread started for segment 2
+[10:03:17] mask dilate thread started for segment 1
+[10:03:17] mask dilate thread started for segment 3
+[10:03:17] yadif thread started for segment 0
+[10:03:17] yadif thread started for segment 1
+[10:03:17] yadif thread started for segment 2
+[10:03:17] yadif thread started for segment 3
+[10:03:17] work: only 1 chapter, disabling chapter markers
+[10:03:17] job configuration:
+[10:03:17]  * source
+[10:03:17]    + /Users/Mac27/Desktop/2236 Back yard.mp4
+[10:03:17]    + title 1, chapter(s) 1 to 1
+[10:03:17]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:03:17]    + data rate: 8064 kbps
+[10:03:17]  * destination
+[10:03:17]    + /Users/Mac27/Movies/2236 Back yard.mp4
+[10:03:17]    + container: MPEG-4 (libavformat)
+[10:03:17]      + optimized for HTTP streaming (fast start)
+[10:03:17]      + align initial A/V stream timestamps
+[10:03:17]  * video track
+[10:03:17]    + decoder: h264
+[10:03:17]      + bitrate 8031 kbps
+[10:03:17]    + filters
+[10:03:17]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:03:17]      + Decomb (mode=39)
+[10:03:17]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[10:03:17]        + frame rate: 23.976 fps -> peak rate limited to 30.000 fps
+[10:03:17]      + Crop and Scale (width=1280:height=720:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:03:17]        + source: 1280 * 720, crop (0/0/0/0): 1280 * 720, scale: 1280 * 720
+[10:03:17]    + Output geometry
+[10:03:17]      + storage dimensions: 1280 x 720
+[10:03:17]      + pixel aspect ratio: 1 : 1
+[10:03:17]      + display dimensions: 1280 x 720
+[10:03:17]    + encoder: H.264 (libx264)
+[10:03:17]      + preset:  fast
+[10:03:17]      + profile: main
+[10:03:17]      + level:   4.0
+[10:03:17]      + quality: 22.00 (RF)
+[10:03:17]      + color profile: 1-1-1
+[10:03:17] sync: expecting 1904 video frames
+[10:03:17] encx264: min-keyint: 24, keyint: 240
+[10:03:17] encx264: encoding at constant RF 22.000000
+[10:03:17] encx264: unparsed options: level=4.0:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 4.0, 4:2:0, 8-bit
+[10:03:17] sync: first pts video is 0
+[10:03:17] sync: "Chapter 1" (1) at frame 1 time 0
+[10:03:51] reader: done. 1 scr changes
+[10:03:53] work: average encoding speed for job is 54.046913 fps
+[10:03:53] comb detect: heavy 1333 | light 497 | uncombed 75 | total 1905
+[10:03:53] decomb: deinterlaced 1333 | blended 497 | unfiltered 75 | total 1905
+[10:03:53] vfr: 1905 frames output, 0 dropped and 0 duped for CFR/PFR
+[10:03:53] vfr: lost time: 0 (0 frames)
+[10:03:53] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:03:53] h264-decoder done: 1905 frames, 0 decoder errors
+[10:03:53] sync: got 1905 frames, 1904 expected
+[10:03:53] sync: framerate min 23.981 fps, max 23.981 fps, avg 23.976 fps
+x264 [info]: frame I:8     Avg QP:20.05  size:181022
+x264 [info]: frame P:502   Avg QP:22.55  size: 76090
+x264 [info]: frame B:1395  Avg QP:26.68  size: 16735
+x264 [info]: consecutive B-frames:  1.9%  0.7%  1.6% 95.7%
+x264 [info]: mb I  I16..4: 16.8%  0.0% 83.2%
+x264 [info]: mb P  I16..4:  4.4%  0.0%  3.9%  P16..4: 37.4% 28.9% 17.2%  0.0%  0.0%    skip: 8.1%
+x264 [info]: mb B  I16..4:  0.8%  0.0%  0.3%  B16..8: 26.2% 11.0%  2.1%  direct:21.2%  skip:38.4%  L0:36.1% L1:31.9% BI:32.0%
+x264 [info]: coded y,uvDC,uvAC intra: 47.2% 70.2% 32.5% inter: 33.0% 23.1% 1.8%
+x264 [info]: i16 v,h,dc,p: 12% 66%  8% 14%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 20% 16%  7%  8%  7%  9%  7%  9%
+x264 [info]: i8c dc,h,v,p: 44% 33% 15%  8%
+x264 [info]: Weighted P-Frames: Y:5.8% UV:1.4%
+x264 [info]: ref P L0: 68.4% 31.6%
+x264 [info]: ref B L0: 81.1% 18.9%
+x264 [info]: ref B L1: 92.2%  7.8%
+x264 [info]: kb/s:6342.25
+[10:03:53] mux: track 0, 1905 frames, 62989566 bytes, 6338.88 kbps, fifo 512
+[10:03:53] libhb: work result = 0
+[10:03:53] macgui: QueueCore work done
+[10:03:53] macgui: Queue Done, there are no more pending encodes
+[10:03:53] macgui: QueueCore stopped preventing sleep
+[10:11:09] macgui: trying to open a folder or file
+[10:11:09] macgui: ScanCore scanning titles with a duration of 10 seconds or more
+[10:11:09] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:11:09]  - Intel microarchitecture Kaby Lake
+[10:11:09]  - logical processor count: 4
+[10:11:09] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard 1080.mp4, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:11:09] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:11:09] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard 1080.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T16:08:14.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 13429 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 13360 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T16:08:14.000000Z
+      handler_name    : Core Media Video
+[10:11:09] scan: decoding previews for title 1
+[10:11:10] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:11:10] libhb: scan thread found 1 valid title(s)
+[10:11:10] macgui: ScanCore scan done
+[10:11:31] macgui: QueueCore prevented sleep
+[10:11:31] macgui: QueueCore scanning specifically for title: 1
+[10:11:31] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:11:31]  - Intel microarchitecture Kaby Lake
+[10:11:31]  - logical processor count: 4
+[10:11:31] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard 1080.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:11:31] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:11:31] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard 1080.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T16:08:14.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 13429 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 13360 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T16:08:14.000000Z
+      handler_name    : Core Media Video
+[10:11:31] scan: decoding previews for title 1
+[10:11:32] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:11:32] libhb: scan thread found 1 valid title(s)
+[10:11:32] macgui: QueueCore scan done
+[10:11:32] 1 job(s) to process
+[10:11:32] starting job
+[10:11:32] macgui: QueueCore started encoding 2236 Back yard 1080.mp4
+[10:11:32] macgui: QueueCore with preset Fast 1080p30 (Modified)
+[10:11:32] decomb filter thread started for segment 0
+[10:11:32] decomb filter thread started for segment 1
+[10:11:32] decomb filter thread started for segment 2
+[10:11:32] decomb filter thread started for segment 3
+[10:11:32] decomb check thread started for segment 0
+[10:11:32] decomb check thread started for segment 1
+[10:11:32] decomb check thread started for segment 2
+[10:11:32] decomb check thread started for segment 3
+[10:11:32] mask filter thread started for segment 0
+[10:11:32] mask filter thread started for segment 1
+[10:11:32] mask filter thread started for segment 2
+[10:11:32] mask filter thread started for segment 3
+[10:11:32] mask erode thread started for segment 1
+[10:11:32] mask erode thread started for segment 0
+[10:11:32] mask erode thread started for segment 2
+[10:11:32] mask erode thread started for segment 3
+[10:11:32] mask dilate thread started for segment 1
+[10:11:32] mask dilate thread started for segment 0
+[10:11:32] mask dilate thread started for segment 2
+[10:11:32] mask dilate thread started for segment 3
+[10:11:32] yadif thread started for segment 0
+[10:11:32] yadif thread started for segment 1
+[10:11:32] yadif thread started for segment 2
+[10:11:32] work: only 1 chapter, disabling chapter markers
+[10:11:32] job configuration:
+[10:11:32]  * source
+[10:11:32]    + /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+[10:11:32]    + title 1, chapter(s) 1 to 1
+[10:11:32]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:11:32]    + data rate: 13429 kbps
+[10:11:32]  * destination
+[10:11:32]    + /Users/Mac27/Movies/2236 Back yard 1080.mp4
+[10:11:32] yadif thread started for segment 3
+[10:11:32]    + container: MPEG-4 (libavformat)
+[10:11:32]      + optimized for HTTP streaming (fast start)
+[10:11:32]      + align initial A/V stream timestamps
+[10:11:32]  * video track
+[10:11:32]    + decoder: h264
+[10:11:32]      + bitrate 13360 kbps
+[10:11:32]    + filters
+[10:11:32]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:11:32]      + Decomb (mode=39)
+[10:11:32]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[10:11:32]        + frame rate: 23.976 fps -> peak rate limited to 30.000 fps
+[10:11:32]      + Crop and Scale (width=1920:height=1080:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:11:32]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1920 * 1080
+[10:11:32]    + Output geometry
+[10:11:32]      + storage dimensions: 1920 x 1080
+[10:11:32]      + pixel aspect ratio: 1 : 1
+[10:11:32]      + display dimensions: 1920 x 1080
+[10:11:32]    + encoder: H.264 (libx264)
+[10:11:32]      + preset:  fast
+[10:11:32]      + profile: main
+[10:11:32]      + level:   4.0
+[10:11:32]      + quality: 22.00 (RF)
+[10:11:32]      + color profile: 1-1-1
+[10:11:32] sync: expecting 1904 video frames
+[10:11:32] encx264: min-keyint: 24, keyint: 240
+[10:11:32] encx264: encoding at constant RF 22.000000
+[10:11:32] encx264: unparsed options: level=4.0:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 4.0, 4:2:0, 8-bit
+[10:11:32] sync: first pts video is 0
+[10:11:32] sync: "Chapter 1" (1) at frame 1 time 0
+[10:12:54] reader: done. 1 scr changes
+[10:12:59] work: average encoding speed for job is 22.518736 fps
+[10:12:59] comb detect: heavy 1667 | light 233 | uncombed 5 | total 1905
+[10:12:59] decomb: deinterlaced 1667 | blended 233 | unfiltered 5 | total 1905
+[10:12:59] vfr: 1905 frames output, 0 dropped and 0 duped for CFR/PFR
+[10:12:59] vfr: lost time: 0 (0 frames)
+[10:12:59] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:12:59] h264-decoder done: 1905 frames, 0 decoder errors
+[10:12:59] sync: got 1905 frames, 1904 expected
+[10:12:59] sync: framerate min 23.981 fps, max 23.981 fps, avg 23.976 fps
+x264 [info]: frame I:8     Avg QP:20.09  size:377621
+x264 [info]: frame P:483   Avg QP:22.77  size:182001
+x264 [info]: frame B:1414  Avg QP:26.61  size: 52661
+x264 [info]: consecutive B-frames:  0.7%  0.6%  1.3% 97.4%
+x264 [info]: mb I  I16..4: 19.3%  0.0% 80.7%
+x264 [info]: mb P  I16..4:  4.7%  0.0%  7.7%  P16..4: 34.6% 27.7% 15.8%  0.0%  0.0%    skip: 9.6%
+x264 [info]: mb B  I16..4:  1.0%  0.0%  1.2%  B16..8: 26.2% 13.0%  3.1%  direct:22.1%  skip:33.3%  L0:35.7% L1:32.9% BI:31.4%
+x264 [info]: coded y,uvDC,uvAC intra: 61.9% 67.5% 27.0% inter: 35.9% 22.0% 0.8%
+x264 [info]: i16 v,h,dc,p: 22% 56% 14%  7%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 19% 14%  6%  7%  7%  8%  6%  8%
+x264 [info]: i8c dc,h,v,p: 47% 27% 18%  8%
+x264 [info]: Weighted P-Frames: Y:6.6% UV:2.1%
+x264 [info]: ref P L0: 66.4% 33.6%
+x264 [info]: ref B L0: 81.1% 18.9%
+x264 [info]: ref B L1: 91.1%  8.9%
+x264 [info]: kb/s:16652.62
+[10:12:59] mux: track 0, 1905 frames, 165390166 bytes, 16643.86 kbps, fifo 256
+[10:12:59] macgui: QueueCore work done
+[10:12:59] macgui: Queue Done, there are no more pending encodes
+[10:12:59] macgui: QueueCore stopped preventing sleep
+[10:12:59] libhb: work result = 0
+[10:25:39] macgui: QueueCore prevented sleep
+[10:25:39] macgui: QueueCore scanning specifically for title: 1
+[10:25:39] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:25:39]  - Intel microarchitecture Kaby Lake
+[10:25:39]  - logical processor count: 4
+[10:25:39] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard 1080.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:25:39] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:25:39] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard 1080.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T16:08:14.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 13429 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 13360 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T16:08:14.000000Z
+      handler_name    : Core Media Video
+[10:25:39] scan: decoding previews for title 1
+[10:25:40] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:25:40] libhb: scan thread found 1 valid title(s)
+[10:25:40] macgui: QueueCore scan done
+[10:25:40] 1 job(s) to process
+[10:25:40] starting job
+[10:25:40] macgui: QueueCore started encoding 2236 Back yard 1080.mp4
+[10:25:40] macgui: QueueCore with preset Fast 1080p30 (Modified)
+[10:25:40] decomb filter thread started for segment 0
+[10:25:40] decomb filter thread started for segment 1
+[10:25:40] decomb filter thread started for segment 2
+[10:25:40] decomb filter thread started for segment 3
+[10:25:40] decomb check thread started for segment 1
+[10:25:40] decomb check thread started for segment 0
+[10:25:40] decomb check thread started for segment 2
+[10:25:40] decomb check thread started for segment 3
+[10:25:40] mask filter thread started for segment 0
+[10:25:40] mask filter thread started for segment 2
+[10:25:40] mask filter thread started for segment 1
+[10:25:40] mask filter thread started for segment 3
+[10:25:40] mask erode thread started for segment 1
+[10:25:40] mask erode thread started for segment 0
+[10:25:40] mask erode thread started for segment 2
+[10:25:40] mask erode thread started for segment 3
+[10:25:40] mask dilate thread started for segment 1
+[10:25:40] mask dilate thread started for segment 0
+[10:25:40] mask dilate thread started for segment 2
+[10:25:40] mask dilate thread started for segment 3
+[10:25:40] yadif thread started for segment 0
+[10:25:40] yadif thread started for segment 1
+[10:25:40] yadif thread started for segment 2
+[10:25:40] yadif thread started for segment 3
+[10:25:40] work: only 1 chapter, disabling chapter markers
+[10:25:40] job configuration:
+[10:25:40]  * source
+[10:25:40]    + /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+[10:25:40]    + title 1, chapter(s) 1 to 1
+[10:25:40]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:25:40]    + data rate: 13429 kbps
+[10:25:40]  * destination
+[10:25:40]    + /Users/Mac27/Movies/2236 Back yard 1080.mp4
+[10:25:40]    + container: MPEG-4 (libavformat)
+[10:25:40]      + optimized for HTTP streaming (fast start)
+[10:25:40]      + align initial A/V stream timestamps
+[10:25:40]  * video track
+[10:25:40]    + decoder: h264
+[10:25:40]      + bitrate 13360 kbps
+[10:25:40]    + filters
+[10:25:40]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:25:40]      + Decomb (mode=39)
+[10:25:40]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[10:25:40]        + frame rate: 23.976 fps -> peak rate limited to 30.000 fps
+[10:25:40]      + Crop and Scale (width=1920:height=1080:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:25:40]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1920 * 1080
+[10:25:40]    + Output geometry
+[10:25:40]      + storage dimensions: 1920 x 1080
+[10:25:40]      + pixel aspect ratio: 1 : 1
+[10:25:40]      + display dimensions: 1920 x 1080
+[10:25:40]    + encoder: MPEG-4 (libavcodec)
+[10:25:40]      + quality: 13.00 (QP)
+[10:25:40]      + color profile: 1-1-1
+[10:25:40] sync: expecting 1904 video frames
+[10:25:40] encavcodecInit: MPEG-4 ASP encoder
+[10:25:40] encavcodec: encoding at constant quantizer 1534
+[10:25:40] encavcodec: encoding with stored aspect 1/1
+[10:25:40] sync: first pts video is 0
+[10:25:40] sync: "Chapter 1" (1) at frame 1 time 0
+[10:26:13] reader: done. 1 scr changes
+[10:26:14] work: average encoding speed for job is 55.448936 fps
+[10:26:15] comb detect: heavy 1667 | light 233 | uncombed 5 | total 1905
+[10:26:15] decomb: deinterlaced 1667 | blended 233 | unfiltered 5 | total 1905
+[10:26:15] vfr: 1905 frames output, 0 dropped and 0 duped for CFR/PFR
+[10:26:15] vfr: lost time: 0 (0 frames)
+[10:26:15] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:26:15] h264-decoder done: 1905 frames, 0 decoder errors
+[10:26:15] sync: got 1905 frames, 1904 expected
+[10:26:15] sync: framerate min 23.981 fps, max 23.981 fps, avg 23.976 fps
+[10:26:15] mux: track 0, 1905 frames, 59650229 bytes, 6002.83 kbps, fifo 512
+[10:26:15] libhb: work result = 0
+[10:26:15] macgui: QueueCore work done
+[10:26:15] macgui: Queue Done, there are no more pending encodes
+[10:26:15] macgui: QueueCore stopped preventing sleep
+[10:35:29] macgui: QueueCore prevented sleep
+[10:35:29] macgui: QueueCore scanning specifically for title: 1
+[10:35:29] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:35:29]  - Intel microarchitecture Kaby Lake
+[10:35:29]  - logical processor count: 4
+[10:35:29] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard 1080.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:35:29] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:35:29] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard 1080.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T16:08:14.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 13429 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 13360 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T16:08:14.000000Z
+      handler_name    : Core Media Video
+[10:35:29] scan: decoding previews for title 1
+[10:35:29] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:35:29] libhb: scan thread found 1 valid title(s)
+[10:35:29] macgui: QueueCore scan done
+[10:35:29] 1 job(s) to process
+[10:35:29] starting job
+[10:35:29] macgui: QueueCore started encoding 2236 Back yard 1080.mp4
+[10:35:29] macgui: QueueCore with preset Fast 1080p30 (Modified)
+[10:35:29] decomb filter thread started for segment 0
+[10:35:29] decomb filter thread started for segment 1
+[10:35:29] decomb filter thread started for segment 2
+[10:35:29] decomb filter thread started for segment 3
+[10:35:29] decomb check thread started for segment 0
+[10:35:29] decomb check thread started for segment 2
+[10:35:29] decomb check thread started for segment 1
+[10:35:29] decomb check thread started for segment 3
+[10:35:29] mask filter thread started for segment 0
+[10:35:29] mask filter thread started for segment 1
+[10:35:29] mask filter thread started for segment 2
+[10:35:29] mask filter thread started for segment 3
+[10:35:29] mask erode thread started for segment 0
+[10:35:29] mask erode thread started for segment 1
+[10:35:29] mask erode thread started for segment 3
+[10:35:29] mask erode thread started for segment 2
+[10:35:29] mask dilate thread started for segment 0
+[10:35:29] mask dilate thread started for segment 1
+[10:35:29] mask dilate thread started for segment 3
+[10:35:29] mask dilate thread started for segment 2
+[10:35:29] yadif thread started for segment 1
+[10:35:29] yadif thread started for segment 0
+[10:35:29] yadif thread started for segment 2
+[10:35:29] work: only 1 chapter, disabling chapter markers
+[10:35:29] job configuration:
+[10:35:29]  * source
+[10:35:29]    + /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+[10:35:29]    + title 1, chapter(s) 1 to 1
+[10:35:29]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:35:29]    + data rate: 13429 kbps
+[10:35:29]  * destination
+[10:35:29] yadif thread started for segment 3
+[10:35:29]    + /Users/Mac27/Movies/2236 Back yard 1080.mp4
+[10:35:29]    + container: MPEG-4 (libavformat)
+[10:35:29]      + optimized for HTTP streaming (fast start)
+[10:35:29]      + align initial A/V stream timestamps
+[10:35:29]  * video track
+[10:35:29]    + decoder: h264
+[10:35:29]      + bitrate 13360 kbps
+[10:35:29]    + filters
+[10:35:29]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:35:29]      + Decomb (mode=39)
+[10:35:29]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[10:35:29]        + frame rate: 23.976 fps -> peak rate limited to 30.000 fps
+[10:35:29]      + Crop and Scale (width=1920:height=1080:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:35:29]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1920 * 1080
+[10:35:29]    + Output geometry
+[10:35:29]      + storage dimensions: 1920 x 1080
+[10:35:29]      + pixel aspect ratio: 1 : 1
+[10:35:29]      + display dimensions: 1920 x 1080
+[10:35:29]    + encoder: H.264 (libx264)
+[10:35:29]      + preset:  medium
+[10:35:29]      + profile: auto
+[10:35:29]      + level:   auto
+[10:35:29]      + quality: 21.00 (RF)
+[10:35:29]      + color profile: 1-1-1
+[10:35:29] sync: expecting 1904 video frames
+[10:35:29] encx264: min-keyint: 24, keyint: 240
+[10:35:29] encx264: encoding at constant RF 21.000000
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 4.0, 4:2:0, 8-bit
+[10:35:30] sync: first pts video is 0
+[10:35:30] sync: "Chapter 1" (1) at frame 1 time 0
+[10:37:09] reader: done. 1 scr changes
+[10:37:15] work: average encoding speed for job is 18.649485 fps
+[10:37:15] comb detect: heavy 1667 | light 233 | uncombed 5 | total 1905
+[10:37:15] decomb: deinterlaced 1667 | blended 233 | unfiltered 5 | total 1905
+[10:37:15] vfr: 1905 frames output, 0 dropped and 0 duped for CFR/PFR
+[10:37:15] vfr: lost time: 0 (0 frames)
+[10:37:15] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:37:15] h264-decoder done: 1905 frames, 0 decoder errors
+[10:37:15] sync: got 1905 frames, 1904 expected
+[10:37:15] sync: framerate min 23.981 fps, max 23.981 fps, avg 23.976 fps
+x264 [info]: frame I:8     Avg QP:19.00  size:407007
+x264 [info]: frame P:483   Avg QP:21.66  size:216707
+x264 [info]: frame B:1414  Avg QP:25.75  size: 74575
+x264 [info]: consecutive B-frames:  0.7%  0.6%  1.3% 97.4%
+x264 [info]: mb I  I16..4: 12.1% 36.0% 52.0%
+x264 [info]: mb P  I16..4:  2.7%  6.9%  4.4%  P16..4: 32.9% 27.6% 16.5%  0.0%  0.0%    skip: 9.0%
+x264 [info]: mb B  I16..4:  0.2%  0.3%  0.4%  B16..8: 39.0% 11.2%  4.8%  direct:14.0%  skip:30.2%  L0:41.4% L1:34.8% BI:23.7%
+x264 [info]: 8x8 transform intra:45.0% inter:51.7%
+x264 [info]: coded y,uvDC,uvAC intra: 67.5% 74.9% 37.9% inter: 42.5% 22.2% 1.1%
+x264 [info]: i16 v,h,dc,p: 22% 56% 13% 10%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15% 22% 29%  5%  6%  5%  6%  5%  8%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 14% 12%  7%  8%  8%  9%  7%  9%
+x264 [info]: i8c dc,h,v,p: 44% 29% 17% 10%
+x264 [info]: Weighted P-Frames: Y:7.0% UV:2.7%
+x264 [info]: ref P L0: 49.2% 17.9% 22.9%  9.4%  0.5%
+x264 [info]: ref B L0: 82.1% 14.5%  3.4%
+x264 [info]: ref B L1: 91.0%  9.0%
+x264 [info]: kb/s:21483.98
+[10:37:16] mux: track 0, 1905 frames, 213374200 bytes, 21472.68 kbps, fifo 256
+[10:37:16] libhb: work result = 0
+[10:37:16] macgui: QueueCore work done
+[10:37:16] macgui: Queue Done, there are no more pending encodes
+[10:37:16] macgui: QueueCore stopped preventing sleep
+[10:41:40] macgui: QueueCore prevented sleep
+[10:41:40] macgui: QueueCore scanning specifically for title: 1
+[10:41:40] CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+[10:41:40]  - Intel microarchitecture Kaby Lake
+[10:41:40]  - logical processor count: 4
+[10:41:40] hb_scan: path=/Users/Mac27/Desktop/2236 Back yard 1080.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[10:41:40] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:41:40] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/Mac27/Desktop/2236 Back yard 1080.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 1
+    compatible_brands: mp41mp42isom
+    creation_time   : 2019-02-18T16:08:14.000000Z
+  Duration: 00:01:19.45, start: 0.000000, bitrate: 13429 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 13360 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-02-18T16:08:14.000000Z
+      handler_name    : Core Media Video
+[10:41:40] scan: decoding previews for title 1
+[10:41:41] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[10:41:41] libhb: scan thread found 1 valid title(s)
+[10:41:41] macgui: QueueCore scan done
+[10:41:41] 1 job(s) to process
+[10:41:41] starting job
+[10:41:41] macgui: QueueCore started encoding 2236 Back yard 1080.mp4
+[10:41:41] macgui: QueueCore with preset Fast 1080p30 (Modified)
+[10:41:41] decomb filter thread started for segment 0
+[10:41:41] decomb filter thread started for segment 1
+[10:41:41] decomb filter thread started for segment 2
+[10:41:41] decomb filter thread started for segment 3
+[10:41:41] decomb check thread started for segment 0
+[10:41:41] decomb check thread started for segment 2
+[10:41:41] decomb check thread started for segment 1
+[10:41:41] decomb check thread started for segment 3
+[10:41:41] mask filter thread started for segment 0
+[10:41:41] mask filter thread started for segment 1
+[10:41:41] mask filter thread started for segment 2
+[10:41:41] mask filter thread started for segment 3
+[10:41:41] mask erode thread started for segment 0
+[10:41:41] mask erode thread started for segment 1
+[10:41:41] mask erode thread started for segment 2
+[10:41:41] mask dilate thread started for segment 0
+[10:41:41] mask erode thread started for segment 3
+[10:41:41] mask dilate thread started for segment 1
+[10:41:41] mask dilate thread started for segment 2
+[10:41:41] mask dilate thread started for segment 3
+[10:41:41] yadif thread started for segment 0
+[10:41:41] yadif thread started for segment 1
+[10:41:41] yadif thread started for segment 2
+[10:41:41] yadif thread started for segment 3
+[10:41:41] work: only 1 chapter, disabling chapter markers
+[10:41:41] job configuration:
+[10:41:41]  * source
+[10:41:41]    + /Users/Mac27/Desktop/2236 Back yard 1080.mp4
+[10:41:41]    + title 1, chapter(s) 1 to 1
+[10:41:41]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:41:41]    + data rate: 13429 kbps
+[10:41:41]  * destination
+[10:41:41]    + /Users/Mac27/Movies/2236 Back yard 1080.mp4
+[10:41:41]    + container: MPEG-4 (libavformat)
+[10:41:41]      + optimized for HTTP streaming (fast start)
+[10:41:41]      + align initial A/V stream timestamps
+[10:41:41]  * video track
+[10:41:41]    + decoder: h264
+[10:41:41]      + bitrate 13360 kbps
+[10:41:41]    + filters
+[10:41:41]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:41:41]      + Decomb (mode=39)
+[10:41:41]      + Framerate Shaper (mode=2:rate=27000000/450000)
+[10:41:41]        + frame rate: 23.976 fps -> peak rate limited to 60.000 fps
+[10:41:41]      + Crop and Scale (width=1920:height=1080:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:41:41]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1920 * 1080
+[10:41:41]    + Output geometry
+[10:41:41]      + storage dimensions: 1920 x 1080
+[10:41:41]      + pixel aspect ratio: 1 : 1
+[10:41:41]      + display dimensions: 1920 x 1080
+[10:41:41]    + encoder: H.264 (libx264)
+[10:41:41]      + preset:  medium
+[10:41:41]      + profile: auto
+[10:41:41]      + level:   auto
+[10:41:41]      + quality: 21.00 (RF)
+[10:41:41]      + color profile: 1-1-1
+[10:41:41] sync: expecting 1904 video frames
+[10:41:41] encx264: min-keyint: 24, keyint: 240
+[10:41:41] encx264: encoding at constant RF 21.000000
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 4.0, 4:2:0, 8-bit
+[10:41:41] sync: first pts video is 0
+[10:41:41] sync: "Chapter 1" (1) at frame 1 time 0
+[10:43:23] reader: done. 1 scr changes
+[10:43:30] work: average encoding speed for job is 18.184469 fps
+[10:43:30] comb detect: heavy 1667 | light 233 | uncombed 5 | total 1905
+[10:43:30] decomb: deinterlaced 1667 | blended 233 | unfiltered 5 | total 1905
+[10:43:30] vfr: 1905 frames output, 0 dropped and 0 duped for CFR/PFR
+[10:43:30] vfr: lost time: 0 (0 frames)
+[10:43:30] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:43:30] h264-decoder done: 1905 frames, 0 decoder errors
+[10:43:30] sync: got 1905 frames, 1904 expected
+[10:43:30] sync: framerate min 23.981 fps, max 23.981 fps, avg 23.976 fps
+x264 [info]: frame I:8     Avg QP:19.00  size:407007
+x264 [info]: frame P:483   Avg QP:21.66  size:216707
+x264 [info]: frame B:1414  Avg QP:25.75  size: 74575
+x264 [info]: consecutive B-frames:  0.7%  0.6%  1.3% 97.4%
+x264 [info]: mb I  I16..4: 12.1% 36.0% 52.0%
+x264 [info]: mb P  I16..4:  2.7%  6.9%  4.4%  P16..4: 32.9% 27.6% 16.5%  0.0%  0.0%    skip: 9.0%
+x264 [info]: mb B  I16..4:  0.2%  0.3%  0.4%  B16..8: 39.0% 11.2%  4.8%  direct:14.0%  skip:30.2%  L0:41.4% L1:34.8% BI:23.7%
+x264 [info]: 8x8 transform intra:45.0% inter:51.7%
+x264 [info]: coded y,uvDC,uvAC intra: 67.5% 74.9% 37.9% inter: 42.5% 22.2% 1.1%
+x264 [info]: i16 v,h,dc,p: 22% 56% 13% 10%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15% 22% 29%  5%  6%  5%  6%  5%  8%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 14% 12%  7%  8%  8%  9%  7%  9%
+x264 [info]: i8c dc,h,v,p: 44% 29% 17% 10%
+x264 [info]: Weighted P-Frames: Y:7.0% UV:2.7%
+x264 [info]: ref P L0: 49.2% 17.9% 22.9%  9.4%  0.5%
+x264 [info]: ref B L0: 82.1% 14.5%  3.4%
+x264 [info]: ref B L1: 91.0%  9.0%
+x264 [info]: kb/s:21483.98
+[10:43:31] mux: track 0, 1905 frames, 213374200 bytes, 21472.68 kbps, fifo 256
+[10:43:31] libhb: work result = 0
+[10:43:31] macgui: QueueCore work done
+[10:43:31] macgui: Queue Done, there are no more pending encodes
+[10:43:31] macgui: QueueCore stopped preventing sleep
